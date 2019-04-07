@@ -1,0 +1,17 @@
+﻿<Window x:Class="MediaCenter.IMDBWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MediaCenter"
+        mc:Ignorable="d"
+        Title="IMDBWindow" Height="233.036" Width="324.107">
+    <Grid>
+        <ComboBox x:Name="comboMedia" HorizontalAlignment="Left" Margin="140,137,0,0" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Choisissez le film correspondant à votre média" HorizontalAlignment="Left" Margin="10,102,0,0" VerticalAlignment="Top" Width="259" Height="30"/>
+        <Label Content="Statuts de la recherche de votre &#xD;&#xA;media dans la base de données :" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.094,0.324" Width="215"/>
+        <Label x:Name="lStatus" Content="En cours" HorizontalAlignment="Left" Margin="225,19,0,0" VerticalAlignment="Top" Height="33" Width="62"/>
+        <Button x:Name="bValider" Content="Valider" HorizontalAlignment="Left" Margin="185,172,0,0" VerticalAlignment="Top" Width="75" Click="bValider_Click"/>
+
+    </Grid>
+</Window>
